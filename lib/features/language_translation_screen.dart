@@ -10,6 +10,11 @@ class LanguageTranslationScreen extends StatefulWidget {
 class _LanguageTranslationScreenState extends State<LanguageTranslationScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Lets Translate"),
+        elevation: 8,
+      ),
+    );
   }
 }
